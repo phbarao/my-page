@@ -5,13 +5,13 @@
 }
 
 body {
-  background-color: #111111;
+  background-color: #202020;
   margin: 0;
   overflow-x: hidden;
 
   color: #fff;
 
-  font-family: "Bebas Neue", cursive;
+  /* font-family: "Bebas Neue", cursive; */
 }
 
 a {
@@ -43,12 +43,8 @@ a {
   justify-content: center;
 }
 
-.title {
-  border: 1px solid #fff;
-  padding: 10px 10px 10px 20px;
-  font-size: 22px;
-  letter-spacing: 10px;
-  transition: 0.3s;
+.logo {
+  width: 220px;
 }
 
 .social {
@@ -68,7 +64,6 @@ a {
 
 .social-icon :hover {
   font-size: 38px;
-  color: rgb(214, 214, 214);
   transition: font-size 0.3s;
 }
 
